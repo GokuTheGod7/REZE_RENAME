@@ -16,10 +16,10 @@ class Config(object):
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/0624f0e874718a066a3f6.mp4")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1350488685 6294805935').split()]
-    FORCE_SUB_1 = os.environ.get("FORCE_SUB_1", "EdgeBotSupport")
-    FORCE_SUB_2 = os.environ.get("FORCE_SUB_2", "EdgeBots")
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001863937035))
-    DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", "-1002131803512"))
+    FORCE_SUB_1 = os.environ.get("FORCE_SUB_1", "https://t.me/Eternal_Anime_chat")
+    FORCE_SUB_2 = os.environ.get("FORCE_SUB_2", "https://t.me/Eternal_society")
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1002918784392))
+    DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", "-1002918784392"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
@@ -34,7 +34,7 @@ class Txt(object):
 🫧 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ʀᴇɴᴀᴍᴇ ʙᴏᴛ!
 ᴡʜɪᴄʜ ᴄᴀɴ ᴍᴀɴᴜᴀʟʟʏ ʀᴇɴᴀᴍᴇ ʏᴏᴜʀ ғɪʟᴇs ᴡɪᴛʜ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ ᴀɴᴅ ᴛʜᴜᴍʙɴᴀɪʟ ᴀɴᴅ ᴀʟsᴏ ᴄᴀɴ sᴇᴛ ᴘʀᴇғɪx ᴀɴᴅ sᴜғғɪx ᴏɴ ʏᴏᴜʀ ғɪʟᴇs.⚡️
 
-✨ ᴛʜɪs ʙᴏᴛ ɪs ᴄʀᴇᴀᴛᴇᴅ ʙʏ <a href=https://github.com/GeekLuffy/>ʟᴜꜰꜰʏ</a>
+✨ ᴛʜɪs ʙᴏᴛ ɪs ᴄʀᴇᴀᴛᴇᴅ ʙʏ <a href=tg://openmessage?user_id=7793156995>goku</a>
 ──────────────────
 ๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴏᴡ ᴛᴏ ᴜsᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.</b>
 """
@@ -61,9 +61,9 @@ Bɪɢ ᴛʜᴀɴᴋs ғᴏʀ ʙᴇɪɴɢ ᴛʜᴇ sᴜᴘᴘᴏʀᴛ sᴜᴘᴇ�
 </b>  
 """
 
-#⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @GeekLuffy🙏🥲
+#⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @Og_Goku_God_7🙏🥲
     ABOUT_TXT = """<b>
-» ᴅᴇᴠᴇʟᴏᴩᴇʀ : <a href=https://t.me/GeekLuffy>ʟᴜꜰꜰʏ</a>
+» ᴅᴇᴠᴇʟᴏᴩᴇʀ : <a href=https://t.me/Og_goku_God_7>ʟᴜꜰꜰʏ</a>
 » ɢɪᴛʜᴜʙ :  <a href=https://github.com/GeekLuffy/>ʟᴜꜰꜰʏ</a>
 » ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
 » ʟᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>ᴘʏᴛʜᴏɴ</a>
