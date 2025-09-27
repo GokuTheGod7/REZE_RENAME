@@ -46,8 +46,8 @@ async def start(client, message):
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton("Hᴏᴡ ᴛᴏ Usᴇ", callback_data='help')
     ], [
-        InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/EdgeBots'),
-        InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/EdgeBotSupport')
+        InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/eternal_bot_update'),
+        InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Eternal_Anime_chat')
     ], [
         InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('Dᴏɴᴀᴛᴇ', callback_data='donate')
@@ -69,8 +69,8 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("Hᴏᴡ ᴛᴏ Usᴇ", callback_data='help')
             ], [
-                InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/EdgeBots'),
-                InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/EdgeBotSupport')
+                InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/eternal_bot_update'),
+                InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Eternal_Anime_chat')
             ], [
                 InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('Dᴏɴᴀᴛᴇ', callback_data='donate')
