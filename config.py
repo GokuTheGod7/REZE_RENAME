@@ -14,8 +14,8 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/2cri9g.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1350488685 6294805935').split()]
+    START_PIC   = os.environ.get("START_PIC", "https://envs.sh/GNk.jpg")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7793156995 1352449904').split()]
     FORCE_SUB_1 = os.environ.get("FORCE_SUB_1", "https://t.me/Eternal_Anime_chat")
     FORCE_SUB_2 = os.environ.get("FORCE_SUB_2", "https://t.me/Eternal_society")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1002918784392))
@@ -34,7 +34,7 @@ class Txt(object):
 🫧 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ʀᴇɴᴀᴍᴇ ʙᴏᴛ!
 ᴡʜɪᴄʜ ᴄᴀɴ ᴍᴀɴᴜᴀʟʟʏ ʀᴇɴᴀᴍᴇ ʏᴏᴜʀ ғɪʟᴇs ᴡɪᴛʜ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ ᴀɴᴅ ᴛʜᴜᴍʙɴᴀɪʟ ᴀɴᴅ ᴀʟsᴏ ᴄᴀɴ sᴇᴛ ᴘʀᴇғɪx ᴀɴᴅ sᴜғғɪx ᴏɴ ʏᴏᴜʀ ғɪʟᴇs.⚡️
 
-✨ ᴛʜɪs ʙᴏᴛ ɪs ᴄʀᴇᴀᴛᴇᴅ ʙʏ <a href=tg://openmessage?user_id=7793156995>goku</a>
+✨ ᴛʜɪs ʙᴏᴛ ɪs ᴄʀᴇᴀᴛᴇᴅ ʙʏ <a href=tg://openmessage?user_id=7793156995>𝗚𝗼𝗸𝘂</a>
 ──────────────────
 ๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴏᴡ ᴛᴏ ᴜsᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.</b>
 """
@@ -48,7 +48,7 @@ Nᴏ ɴᴇᴇᴅ ᴛᴏ sᴛʀᴇss ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴs – ʏ
 
 Bɪɢ ᴛʜᴀɴᴋs ғᴏʀ ʙᴇɪɴɢ ᴛʜᴇ sᴜᴘᴘᴏʀᴛ sᴜᴘᴇʀsᴛᴀʀ ɪɴ ᴏᴜʀ sᴍᴀʟʟ, ʙᴜᴛ ᴀᴡᴇsᴏᴍᴇ, sᴘᴀᴄᴇ!🌟</b>"""
 
-    HELP_TXT = """<b>ᴇᴅɢᴇ ʀᴇɴᴀᴍᴇ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs🫧
+    HELP_TXT = """<b>𝐑ᴇᴢᴇ 𝐅ɪʟᴇ 𝐑ᴇɴᴀᴍᴇ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs🫧
  
 ᴇᴅɢᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ɪꜱ ᴀ ᴠᴇʀʏ ʜᴀɴᴅʏ ᴀɴᴅ ʜᴇʟᴘғᴜʟ ʙᴏᴛ  ᴛʜᴀᴛ ʜᴇʟᴘꜱ ʏᴏᴜ ʀᴇɴᴀᴍᴇ ᴀɴᴅ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ꜰɪʟᴇꜱ ᴇꜰꜰᴏʀᴛʟᴇꜱꜱʟʏ.
 
@@ -63,13 +63,13 @@ Bɪɢ ᴛʜᴀɴᴋs ғᴏʀ ʙᴇɪɴɢ ᴛʜᴇ sᴜᴘᴘᴏʀᴛ sᴜᴘᴇ�
 
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @Og_Goku_God_7🙏🥲
     ABOUT_TXT = """<b>
-» ᴅᴇᴠᴇʟᴏᴩᴇʀ : <a href=https://t.me/Og_goku_God_7>ʟᴜꜰꜰʏ</a>
+» ᴅᴇᴠᴇʟᴏᴩᴇʀ : <a href=https://t.me/Og_goku_God_7>𝗚𝗼𝗸𝘂</a>
 » ɢɪᴛʜᴜʙ :  <a href=/>ʟᴜꜰꜰʏ</a>
 » ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
 » ʟᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>ᴘʏᴛʜᴏɴ</a>
-» ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href=ht>ᴇᴅɢᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ</a>
-» ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Eternal_society>ᴀɴɪᴍᴇ ᴇᴅɢᴇ</a>
-» ᴍᴀɪɴ ɢʀᴏᴜᴘ : <a href=https://t.me/sorcerers_680>ꜱᴛʀᴀᴡʜᴀᴛ ᴘɪʀᴀᴛᴇꜱ</a></b>"""
+» ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href=ht>𝐑ᴇᴢᴇ 𝐅ɪʟᴇ 𝐑ᴇɴᴀᴍᴇ</a>
+» ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Eternal_society>𝙀𝙏𝙚𝙧𝙣𝙖𝙡 𝙎𝙤𝙘𝙞𝙚𝙩𝙮</a>
+» ᴍᴀɪɴ ɢʀᴏᴜᴘ : <a href=https://t.me/sorcerers_680>𝐊ᴏɴᴏʜᴀ 𝐕ɪʟʟᴀɢᴇ</a></b>"""
 
     META_TXT = """
 **ᴍᴀɴᴀɢɪɴɢ ᴍᴇᴛᴀᴅᴀᴛᴀ ғᴏʀ ʏᴏᴜʀ ᴠɪᴅᴇᴏs ᴀɴᴅ ғɪʟᴇs**
