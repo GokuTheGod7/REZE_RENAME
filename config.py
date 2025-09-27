@@ -9,8 +9,8 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "8220312376:AAGvKjB8cRujRQqNdZ2xbUzzewY36gEL33k")
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Zoro")
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","Reze_rename")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://Sasuke_680:Sasuke_680@cluster0.xds2ykw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
