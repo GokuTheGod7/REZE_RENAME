@@ -14,7 +14,7 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/0624f0e874718a066a3f6.mp4")
+    START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/2cri9g.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1350488685 6294805935').split()]
     FORCE_SUB_1 = os.environ.get("FORCE_SUB_1", "https://t.me/Eternal_Anime_chat")
     FORCE_SUB_2 = os.environ.get("FORCE_SUB_2", "https://t.me/Eternal_society")
@@ -64,12 +64,12 @@ Bɪɢ ᴛʜᴀɴᴋs ғᴏʀ ʙᴇɪɴɢ ᴛʜᴇ sᴜᴘᴘᴏʀᴛ sᴜᴘᴇ�
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @Og_Goku_God_7🙏🥲
     ABOUT_TXT = """<b>
 » ᴅᴇᴠᴇʟᴏᴩᴇʀ : <a href=https://t.me/Og_goku_God_7>ʟᴜꜰꜰʏ</a>
-» ɢɪᴛʜᴜʙ :  <a href=https://github.com/GeekLuffy/>ʟᴜꜰꜰʏ</a>
+» ɢɪᴛʜᴜʙ :  <a href=/>ʟᴜꜰꜰʏ</a>
 » ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a>
 » ʟᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>ᴘʏᴛʜᴏɴ</a>
-» ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href=https://t.me/Monkey_d_luufy>ᴇᴅɢᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ</a>
-» ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Anime_Edge>ᴀɴɪᴍᴇ ᴇᴅɢᴇ</a>
-» ᴍᴀɪɴ ɢʀᴏᴜᴘ : <a href=https://t.me/straw_hat_piratess>ꜱᴛʀᴀᴡʜᴀᴛ ᴘɪʀᴀᴛᴇꜱ</a></b>"""
+» ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href=ht>ᴇᴅɢᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ</a>
+» ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Eternal_society>ᴀɴɪᴍᴇ ᴇᴅɢᴇ</a>
+» ᴍᴀɪɴ ɢʀᴏᴜᴘ : <a href=https://t.me/sorcerers_680>ꜱᴛʀᴀᴡʜᴀᴛ ᴘɪʀᴀᴛᴇꜱ</a></b>"""
 
     META_TXT = """
 **ᴍᴀɴᴀɢɪɴɢ ᴍᴇᴛᴀᴅᴀᴛᴀ ғᴏʀ ʏᴏᴜʀ ᴠɪᴅᴇᴏs ᴀɴᴅ ғɪʟᴇs**
