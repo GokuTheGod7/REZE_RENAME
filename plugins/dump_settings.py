@@ -13,7 +13,7 @@ async def set_dump_channel(client, message):
             "**Usage:**\n"
             "/setdump channel_id\n\n"
             "**Example:**\n"
-            "`/setdump -1001234567890`\n\n"
+            "`/setdump -1002918784392`\n\n"
             "Make sure:\n"
             "1. Bot is admin in the channel\n"
             "2. Channel ID starts with -100\n"
