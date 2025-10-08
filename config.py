@@ -14,7 +14,7 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://i.ibb.co/yBPgtqnT/photo-2025-09-27-16-31-39-7554776927466036224.jpg")
+    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/7de8dec33eb4fe090cab5-da06ae42a2b0dacf51.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7793156995 1352449904').split()]
     FORCE_SUB_1 = os.environ.get("FORCE_SUB_1", "https://t.me/Eternal_Anime_chat")
     FORCE_SUB_2 = os.environ.get("FORCE_SUB_2", "https://t.me/Eternal_society")
