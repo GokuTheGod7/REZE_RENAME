@@ -64,7 +64,7 @@ async def get_stats(bot, message):
 ┣• ғʀᴇᴇ » `{(disk_info.free/1024/1024/1024):.1f} GB`
 ╰──────────────────
 
-✧ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ @EdgeBots** ✧"""
+✧ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ @Eternal_bot_update** ✧"""
 
     await st.edit(stats_text)
 
